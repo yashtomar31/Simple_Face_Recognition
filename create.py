@@ -19,8 +19,9 @@ try:
 	cv2.destroyAllWindows()
 
 except:
+	print("try failed, entered a catch block")
 	print "The image name you provided doesn't exit or the extension name you provided is incorrect"
-
+	
 
 
 
